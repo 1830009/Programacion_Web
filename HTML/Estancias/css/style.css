@@ -1,0 +1,103 @@
+body{
+	font-family: arial;
+	width: 900 px;
+	background-color: #eb5e28; 
+	margin: auto;
+}
+
+.cabecera{
+	background-color:#252422;
+	color: white;
+	padding-bottom: 5px;
+}
+
+.Principal{
+	display: flex;
+	padding: 20px;
+}
+
+main{
+	background-color: #EEDDCD;
+	padding: 100px;
+	text-align: justify;
+}
+
+aside{
+	text-align: justify;
+	color: white;
+	background-color: #403d39;
+	width: 90%;
+	padding: 15px;
+	font-family: times new roman;
+}
+h1{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 50px;
+	color: white;
+	font-family: Century Gothic;
+}
+
+h2{
+	color: #eb5e28;
+}
+
+h3{
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+header{
+		background-color: 
+}
+
+footer{
+	background-color:#252422;
+	color: white;
+	list-style:  none;
+}
+nav ul li {
+	display: inline;
+	list-style: none;
+	font-size: 20px;
+	padding: 15px;
+	text-align: center;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover{
+	background-color: #eb5e28;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 400;
+
+}
+
+article{
+	padding: 20px;
+}
+
+.imagen{
+	text-align: center;
+}
+
+.Abstract{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.nombre{
+	display: flex;
+	background-color: #6B6B6B;
+	padding: 10px;
+}
+.imagen1{
+	border-radius: 90%;
+}
+.img1{
+	padding-top: 30px;
+	text-align: center;
+}

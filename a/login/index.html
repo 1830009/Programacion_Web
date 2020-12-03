@@ -1,0 +1,105 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="css/images/Logo.PNG"> 
+</head>
+<body>
+
+  <div id="login_div" class="cont">
+    <div class="form sign-in">
+        <h2>INICIAR SESIÓN</h2>
+        <label>
+          <span>CORREO</span>
+          <input type="email" name="email" id="email_field" placeholder="Correo electronico">
+        </label>
+        <label>
+          <span>CONTRASEÑA</span>
+          <input type="password" name="password" id="password_field" placeholder="Contraseña">
+        </label>
+        <button class="submit" type="button" onclick="login();">INICIAR</button>
+        <a href="actcontra.html"><p class="forgot-pass">OLVIDÉ MI CONTRASEÑA</p></a>
+  
+        <div class="social-media">
+          <ul>
+            <li><img src="css/images/facebook.png"></li>
+            <li><img src="css/images/twitter.png"></li>
+            <li><img src="css/images/youtube.png"></li>
+            <li><img src="css/images/instagram.png"></li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="sub-cont">
+        <div class="img">
+          <div class="img-text m-up">
+            <h2>SOMOS TU MEJOR OPCION</h2>
+            <p>Fomentando el comercio local</p>
+          </div>
+          <div class="img-text m-in">
+            <h2>MARKETVIC</h2>
+            <p>Somos una empresa dedicada a fortalecer el comercio local</p>
+          </div>
+          <div class="img-btn">
+            <span class="m-up">REGISTRARSE</span>
+            <span class="m-in">INICIAR SESIÓN</span>
+          </div>
+        </div>
+        <div class="form sign-up">
+          <h2>Registrarse</h2>
+          <label>
+            <span>Nombre</span>
+            <input type="text">
+          </label>
+          <label>
+            <span>Correo</span>
+            <input type="email" id="email-register">
+          </label>
+          <label>
+            <span>Contraseña</span>
+            <input type="password" id="password-register">
+          </label>
+          <label>
+            <span>Confirmar Contraseña</span>
+            <input type="password" id="confirm-pass">
+          </label>
+          <button type="button" class="submit" onclick="register()">REGISTRAR</button>
+        </div>
+      </div>   
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>INICIO DE SESIÓN EXITOSO</h3>
+    <p id="user_para">Ejemplo</p>
+    <button class="salir" onclick="logout()">Entrar</button>
+  </div>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDGBo5eJ1X9vvPilkga9Rn6gJhsaw-D3do",
+    authDomain: "marketvic.firebaseapp.com",
+    databaseURL: "https://marketvic.firebaseio.com",
+    projectId: "marketvic",
+    storageBucket: "marketvic.appspot.com",
+    messagingSenderId: "805746893797",
+    // appId: "1:805746893797:web:8d45a5943e76c0238cc50c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  <script src="scripts/scripts.js"></script>
+
+</body>
+</html>

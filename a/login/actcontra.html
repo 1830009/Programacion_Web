@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar contraseña</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/Logo.PNG"> 
+</head>
+
+<body id="bod-update">
+  <div class="cont-recuperar">
+    <label>
+        <span class="text">Correo</span> <br><br>
+        <input class="area" type="email" name="email" id="email_change" placeholder="Correo" required>
+    </label>
+    <label>
+      <span class="text">Última contraseña que recuerde</span><br><br>
+      <input class="area" type="password" name="password" id="password_change" placeholder="Contraseña" required>
+    </label>
+    <br><br>  
+      <button class="submit-pass" type="button" onclick="updatepass();" >Enviar correo de recuperación</button>
+  </div>
+   
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDGBo5eJ1X9vvPilkga9Rn6gJhsaw-D3do",
+    authDomain: "marketvic.firebaseapp.com",
+    databaseURL: "https://marketvic.firebaseio.com",
+    projectId: "marketvic",
+    storageBucket: "marketvic.appspot.com",
+    messagingSenderId: "805746893797",
+    // appId: "1:805746893797:web:8d45a5943e76c0238cc50c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  <script src="scripts/scripts.js"></script>
+
+
+</body>
+</html>

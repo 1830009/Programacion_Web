@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/imc.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <div class="title">
+        <h1>Calculadora de IMC</h1>
+    </div>
+
+</head>
+
+<body>
+    <div class="form">
+        <label>Peso: </label>
+        <input type="number" name="peso" id="peso" placeholder="Ej. 80 (Kg)">
+        <br>
+        <br>
+        <label>Altura: </label>
+        <input type="number" name="altura" id="altura" placeholder="Ej. 1.70 (m)" step="0.1">
+        <br>
+        <br>
+        <button type="button" onclick="IMC()">Calcular</button>
+        <br>
+        <br>
+        <div class="res">
+            <div class="res1">
+                <label class="txt" id="limc">IMC: </label>
+                <br>
+                <label class="resl" id="resIMC"></label>
+                <br>
+
+                <label class="txt" id="cat">Categoria: </label>
+                <br>
+                <label class="resl" id="resCAT"></label>
+            </div>
+            <div class="imgn">
+                <img src="img/nutricion.jpg" id="estado">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

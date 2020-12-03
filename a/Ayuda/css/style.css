@@ -1,0 +1,45 @@
+.body_ayuda{
+    margin: auto;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Nunito', sans-serif;
+}
+
+.h1_ayuda{
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 30px;
+  -webkit-box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+  box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+}
+
+.h3_ayuda{
+  text-align: center;
+}
+
+.aside_ayuda{
+  width: 50%;
+  margin: 0px 30px 20px 15px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+  box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+}
+
+.Ayuda{
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+  box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+}
+
+.Ayuda p {
+  text-align: justify ;
+}

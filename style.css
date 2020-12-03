@@ -1,0 +1,9 @@
+body {
+    background-color: gray;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}

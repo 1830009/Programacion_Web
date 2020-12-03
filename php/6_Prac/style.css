@@ -1,0 +1,13 @@
+body {
+    width: 800px;
+    margin: auto;
+}
+
+.f_ciudad {
+    padding: 30px;
+    text-align: center;
+}
+
+.f_ciudad input {
+    margin-top: 20px;
+}

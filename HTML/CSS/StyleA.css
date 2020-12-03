@@ -1,0 +1,60 @@
+
+.title-Principal{
+	text-transform: uppercase;
+	text-align: center;
+	color: blue;
+	/*border: solid;
+	border-color: black;*/
+	text-shadow: #292929  5px 3px;
+
+}
+
+.Subtitle{
+	text-transform: capitalize;
+	text-align: center;
+	color: green;
+	text-decoration: underline;
+}
+
+p{
+	
+	text-align: justify;
+}
+
+#banner{
+	width: 100%
+}
+
+body{
+	background-color: #041437;
+
+}
+
+.contenido{
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 1000px;
+	margin: auto;
+	color: black;
+}
+
+/*Página Moviles*/
+
+.moviles{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+p{
+	padding: 10px; 
+}
+
+img{
+	border-radius: 5%;
+	border: solid;
+	border-color: blue;
+
+}

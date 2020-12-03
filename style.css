@@ -5,12 +5,56 @@ body {
 
 header {
     margin: auto;
-    background-color: black;
+    background-image: linear-gradient(to right, black, rgb(39, 38, 38));
+    /*background-color: black;*/
     text-align: center;
     color: white;
     padding-top: 30px;
     margin-bottom: 15px;
     display: flex;
+}
+
+footer {
+    margin: auto;
+    background-image: linear-gradient(to right, black, rgb(39, 38, 38));
+    /*background-color: black;*/
+    text-align: center;
+    color: white;
+    padding: 50px;
+    padding-left: 200px;
+    padding-top: 10px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.alumno {
+    width: 50%;
+}
+
+.prof {
+    width: 50%;
+}
+
+.prof a {
+    color: white;
+    text-decoration: none;
+}
+
+.prof td :hover {
+    color: orange;
+}
+
+footer table {
+    text-align: left;
+}
+
+footer table td {
+    padding-right: 20px;
+}
+
+footer h2 {
+    text-align: left;
+    font-style: italic;
 }
 
 header h1 {
@@ -71,10 +115,72 @@ main {
     border: solid;
 }
 
+.info p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
 main h2 {
-    background-color: black;
+    background-image: linear-gradient(to right, black, rgb(77, 77, 77));
+    /*background-color: black;*/
     color: white;
     padding: 10px;
+    display: flex;
+}
+
+.tbl {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.tbl td {
+    width: 30%;
+    font-size: 20px;
+    height: 100px;
+    background-color: darkslategray;
+}
+
+#tbl1 td :hover {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#tbl1 :hover {
+    font-size: 23px;
+    background-image: linear-gradient(to right, rgb(253, 140, 74), rgb(250, 186, 149));
+    /*background-color: rgb(253, 153, 95);*/
+}
+
+#tbl2 td :hover {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(250, 248, 136);
+}
+
+#tbl2 :hover {
+    font-size: 23px;
+    background-image: linear-gradient(to right, rgb(250, 239, 79), rgb(247, 245, 166));
+}
+
+#tbl3 td :hover {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(126, 222, 235);
+}
+
+#tbl3 :hover {
+    font-size: 23px;
+    background-image: linear-gradient(to right, rgb(97, 220, 236), rgb(177, 226, 233));
+}
+
+#prog {
+    width: 5%;
 }
 
 main section {
@@ -83,6 +189,6 @@ main section {
 
 section a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 }

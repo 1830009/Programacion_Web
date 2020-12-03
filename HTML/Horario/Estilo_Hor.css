@@ -1,0 +1,82 @@
+		.formProy{
+			
+				text-align: center;
+				color:white;
+				background-color:lime;
+				text-transform: capitalize; 
+			}
+
+		.Leng{
+
+				color:white;
+					text-align: center;
+				background-color:#FF3D3D;
+				text-transform: capitalize; 
+			}
+
+		.DI{
+				color:white;
+					text-align: center;
+				background-color: #028F8D ;
+				text-transform: capitalize; 
+			}
+		.LIDER{
+				text-align: center;
+				color:black;
+				background-color: #FF3585;
+				text-transform: capitalize;  
+		}
+
+		.Web{
+				text-align: center;
+				color:white;
+				background-color:#FF842A;
+				text-transform: capitalize; 
+			}
+		.ing{
+				text-align: center;
+				color:black;
+				background-color:#FFED3D;
+				text-transform: capitalize; 
+		}
+
+		.Req{
+				text-align: center;
+				color:white;
+				background-color: #9C5A94;
+				text-transform: capitalize; 
+		}
+
+		.Horas{
+				text-align: center;
+				
+		}
+
+		.cabecera{
+			font-family: arial;
+			font-size: 17px;
+			color: white;
+			background-color: #880DBD;
+		}
+		body{
+			font-family: arial;
+			font-size: 15px;
+			background-color: #041437;
+		}
+
+		.Division{
+			background-color: white;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			padding-top: 50px;
+			width: 1200px;
+			height: 540px;
+			margin: auto;
+			color: black;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
